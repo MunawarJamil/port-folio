@@ -3,15 +3,16 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Carosel from './components/Carosel';
+import Experience from './components/Experience';
 
 export default function Home() {
   return (
     <div className="w-full pt-6">
-      <header >
+      <header className="container   pt-5 w-[80%] mx-auto  " >
         <Navbar />
       </header>
       
-      <main className="container p-5 pt-10 w-[80%] mx-auto min-h-screen">
+      <main className="container p-5 pt-5 w-[80%] mx-auto min-h-screen">
         <section>
           <Hero />
         </section>
@@ -22,6 +23,9 @@ export default function Home() {
 
         <section>
           <Carosel />
+        </section>
+        <section>
+          <Experience />
         </section>
       </main>
     </div>
