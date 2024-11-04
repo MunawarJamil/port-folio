@@ -20,35 +20,35 @@ function Hero() {
         </button>
       </div>
 
- <div class="grid   gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+ <div className="grid   gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 {/* 
 <!-- Main image spanning two columns on large screens --> */}
-<div class="  col-span-1 lg:col-span-2">
-  <img src="./box.png" alt="" class="w-full h-full" />
+<div className="  col-span-1 lg:col-span-2">
+  <img src="./box.png" alt="" className="w-full h-full" />
 </div>
  
-<div class="  w-[50]%    space-y-4 w-full">
-  <div class="   ">
-  <img src="./box(1).png" alt="" class="w-full" />
+<div className="  w-[50]%    space-y-4 w-full">
+  <div className="   ">
+  <img src="./box(1).png" alt="" className="w-full" />
   </div>
-  <div class="  ">
-  <img src="./box0.png" alt="" class="w-full" />
+  <div className="  ">
+  <img src="./box0.png" alt="" className="w-full" />
   </div>
 </div>
 {/* 
 <!-- Another column with two stacked images --> */}
-<div class="  space-y-4 w-full">
-  <div class=" ">
-    <img src="./box(2).png" alt="" class="w-full" />
+<div className="  space-y-4 w-full">
+  <div className=" ">
+    <img src="./box(2).png" alt="" className="w-full" />
   </div>
-  <div class=" ">
-    <img src="./box.png" alt="" class="w-full" />
+  <div className=" ">
+    <img src="./box.png" alt="" className="w-full" />
   </div>
 </div>
 {/* 
 <!-- Bottom image spanning two columns on large screens --> */}
-<div class="  col-span-1 lg:col-span-2">
-  <img src="./box(2).png" alt="" class="w-full h-full" />
+<div className="  col-span-1 lg:col-span-2">
+  <img src="./box(2).png" alt="" className="w-full h-full" />
 </div>
 
 </div>
