@@ -1,5 +1,4 @@
-import React from "react";
-import { EnvelopeOpenIcon } from "@radix-ui/react-icons"
+import React from "react"; 
  
 import { Button } from "@/components/ui/button"
  
@@ -42,7 +41,7 @@ function Experience() {
     <section className="w-[90%] mx-auto">
       <h1 className="my-10 font-custom_sans leading-tight lg:text-6xl text-center text-[30px] lg:leading-tight md:leading-relaxed md:text-5xl font-bold space-y-6">
         My Work  <span className="text-text-custom"> Experience</span>   
-      </h1>
+      </h1>                                             
 
       <div className="flex flex-col gap-5">
         {groupedExperienceData.map((row, rowIndex) => (
@@ -69,7 +68,7 @@ function Experience() {
           </div>
         ))}
       </div>
-<div className="  text-center">
+<div className="  text-center"> 
       <h1 className="my-5 font-custom_sans leading-tight lg:text-5xl text-center text-[30px] lg:leading-tight md:leading-tight md:text-4xl font-bold space-y-3">
       Ready to take your digital presence  <span className="text-text-custom">to the next level?</span>  
       </h1>
